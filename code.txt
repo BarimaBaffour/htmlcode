@@ -11,7 +11,7 @@
   </style>
 </head>
 <body>
-  <h1>Hello, world! 👋</h1>
+  <h1>Hello, kwame! 👋</h1>
   <p>This is a simple HTML page. Click the button to see a message.</p>
   <button onclick="alert('It works! 🎉')">Click me</button>
 

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Simple Page</title>
+  <style>
+    body { font-family: system-ui, Arial, sans-serif; margin: 2rem; }
+    h1 { margin-bottom: 0.5rem; }
+    button { padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Hello, world! 👋</h1>
+  <p>This is a simple HTML page. Click the button to see a message.</p>
+  <button onclick="alert('It works! 🎉')">Click me</button>
+
+  <footer style="margin-top:2rem; font-size:0.9rem; color:#555;">
+    &copy; <span id="year"></span> My Site
+  </footer>
+
+  <script>
+    // Set the current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
